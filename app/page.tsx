@@ -14,15 +14,24 @@ export default function Page() {
   const [openOnly, setOpenOnly] = useState(false)
   const [selected, setSelected] = useState<Agency | null>(null)
 
-  const filtered = useMemo(() => agencies.filter((agency) => {
-    const haystack = normalize(Object.values(agency).join(' '))
-    const matchesQuery = !query.trim() || haystack.includes(normalize(query))
-    const matchesType = type === 'all' || agency.type === type
+  const filtered = useMemo(() => {
+    const normalizedQuery = normalize(query.trim())
+    const exactCitySearch = normalizedQuery
+      ? agencies.some((agency) => normalize(agency.city) === normalizedQuery)
+      : false
+
+    return agencies.filter((agency) => {
+      const haystack = normalize(Object.values(agency).join(' '))
+      const matchesQuery = !normalizedQuery || (exactCitySearch
+        ? normalize(agency.city) === normalizedQuery
+        : haystack.includes(normalizedQuery))
+      const matchesType = type === 'all' || agency.type === type
     const matchesCountry = country === 'Tous les pays' || agency.country === country
     const matchesCity = city === 'Toutes les villes' || agency.city === city
     const matchesOpen = !openOnly || getAgencyStatus(agency) === 'Ouvert maintenant'
-    return matchesQuery && matchesType && matchesCountry && matchesCity && matchesOpen
-  }), [city, country, openOnly, query, type])
+      return matchesQuery && matchesType && matchesCountry && matchesCity && matchesOpen
+    })
+  }, [city, country, openOnly, query, type])
 
   return <div className="app-shell">
     <header className="topbar"><div className="brand-lockup"><img src="/icon.svg" alt="Air Algérie" className="brand-logo" /><div><div className="brand-name">Agences Air Algérie</div><div className="brand-subtitle">Outil Call Center</div></div></div><div className="header-links"><span>🇩🇿 National</span><span>🌍 International</span></div></header><div className="red-line" />
