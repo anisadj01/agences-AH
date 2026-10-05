@@ -1,0 +1,1216 @@
+{
+  "compagnie": "Air Algérie",
+  "pays": "Algérie",
+  "date_collecte": "2026-10-05",
+  "avertissement": "Liste NON exhaustive. Air Algérie annonce environ 130 agences/bureaux dans 28 pays, mais sa carte officielle est dynamique et n'a pas pu être lue. Données compilées depuis des annuaires tiers, parfois anciens ; plusieurs agences ont fermé (Casablanca, Lille...). Adresse null = ville connue mais adresse non trouvée. Les liens Google Maps sont des recherches (pas des coordonnées GPS). Vérifier sur airalgerie.dz. Centres d'appel: Algérie +213 21 98 63 63 (court 3302), France +33 1 76 54 40 00, Suisse +41 21 530 94 83, Espagne +34 912 693 434, Royaume-Uni +44 2045 253188.",
+  "agences": [
+    {
+      "id": 1,
+      "nom": "Direction régionale Oran",
+      "adresse": "Zone des sièges, ZHUN, USTO îlot 26, 31000 Oran",
+      "wilaya": "Oran",
+      "contact": {
+        "telephones": [
+          "+213 41 42 91 07",
+          "+213 41 42 91 13",
+          "+213 41 42 91 12",
+          "+213 41 42 72 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Zone%20des%20si%C3%A8ges%2C%20ZHUN%2C%20USTO%20%C3%AElot%2026%2C%2031000%20Oran",
+      "source": "oran-dz.com / algdz.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 2,
+      "nom": "Agence aéroport Ahmed Ben Bella",
+      "adresse": "Aéroport Ahmed Ben Bella, Es-Sénia, 31000 Oran",
+      "wilaya": "Oran",
+      "contact": {
+        "telephones": [
+          "+213 41 59 10 62"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20A%C3%A9roport%20Ahmed%20Ben%20Bella%2C%20Es-S%C3%A9nia%2C%2031000%20Oran",
+      "source": "oran-dz.com / algdz.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 3,
+      "nom": "Agence Emir Abdelkader",
+      "adresse": "2, Boulevard Emir Abdelkader, Oran",
+      "wilaya": "Oran",
+      "contact": {
+        "telephones": [
+          "+213 41 29 36 89"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%202%2C%20Boulevard%20Emir%20Abdelkader%2C%20Oran",
+      "source": "oran-dz.com / algdz.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 4,
+      "nom": "Agence 1er Novembre",
+      "adresse": "Place du 1er Novembre 1954, 31000 Oran",
+      "wilaya": "Oran",
+      "contact": {
+        "telephones": [
+          "+213 41 29 31 19"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Place%20du%201er%20Novembre%201954%2C%2031000%20Oran",
+      "source": "oran-dz.com / algdz.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 5,
+      "nom": "Agence Panoramique",
+      "adresse": "15, Boulevard de l'ALN (Front de mer), 31000 Oran",
+      "wilaya": "Oran",
+      "contact": {
+        "telephones": [
+          "+213 41 33 47 26"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2015%2C%20Boulevard%20de%20l%27ALN%20%28Front%20de%20mer%29%2C%2031000%20Oran",
+      "source": "oran-dz.com / algdz.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 6,
+      "nom": "Agence Arzew",
+      "adresse": "1, Place Mohamed Khemisti, Arzew",
+      "wilaya": "Oran",
+      "contact": {
+        "telephones": [
+          "+213 41 47 25 99"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%201%2C%20Place%20Mohamed%20Khemisti%2C%20Arzew",
+      "source": "oran-dz.com / algdz.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 7,
+      "nom": "Agence Maurice Audin",
+      "adresse": "1, Place Maurice Audin, Alger",
+      "wilaya": "Alger",
+      "contact": {
+        "telephones": [
+          "+213 21 68 95 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%201%2C%20Place%20Maurice%20Audin%2C%20Alger",
+      "source": "alger-city.com / franvol.com / annuaire-airvol.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 8,
+      "nom": "Agence Didouche Mourad",
+      "adresse": "Rue Didouche Mourad, Alger Centre, 16000 Alger",
+      "wilaya": "Alger",
+      "contact": {
+        "telephones": [
+          "+213 21 63 41 61"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Didouche%20Mourad%2C%20Alger%20Centre%2C%2016000%20Alger",
+      "source": "alger-city.com / franvol.com / annuaire-airvol.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 9,
+      "nom": "Agence El Biar",
+      "adresse": "98, Rue Ali Khodja, El Biar, 16000 Alger",
+      "wilaya": "Alger",
+      "contact": {
+        "telephones": [
+          "+213 21 92 15 43"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2098%2C%20Rue%20Ali%20Khodja%2C%20El%20Biar%2C%2016000%20Alger",
+      "source": "alger-city.com / franvol.com / annuaire-airvol.com",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 10,
+      "nom": "Agence Adrar",
+      "adresse": "Place des Martyrs, Adrar",
+      "wilaya": "Adrar",
+      "contact": {
+        "telephones": [
+          "+213 49 96 93 65"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Place%20des%20Martyrs%2C%20Adrar",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 11,
+      "nom": "Agence Annaba",
+      "adresse": "Carrefour Sidi Brahim, Annaba",
+      "wilaya": "Annaba",
+      "contact": {
+        "telephones": [
+          "+213 38 84 49 32",
+          "+213 38 84 49 35",
+          "+213 38 84 49 37"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Carrefour%20Sidi%20Brahim%2C%20Annaba",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 12,
+      "nom": "Agence Batna",
+      "adresse": "Rue des frères Maazouzi, Batna",
+      "wilaya": "Batna",
+      "contact": {
+        "telephones": [
+          "+213 33 81 41 03"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20des%20fr%C3%A8res%20Maazouzi%2C%20Batna",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 13,
+      "nom": "Agence Béchar",
+      "adresse": "1, Place de la République, Béchar",
+      "wilaya": "Béchar",
+      "contact": {
+        "telephones": [
+          "+213 49 81 65 65"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%201%2C%20Place%20de%20la%20R%C3%A9publique%2C%20B%C3%A9char",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 14,
+      "nom": "Agence Béjaïa",
+      "adresse": "Centre commercial, Rue de la Liberté, Béjaïa",
+      "wilaya": "Béjaïa",
+      "contact": {
+        "telephones": [
+          "+213 34 21 13 37"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Centre%20commercial%2C%20Rue%20de%20la%20Libert%C3%A9%2C%20B%C3%A9ja%C3%AFa",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 15,
+      "nom": "Agence Biskra",
+      "adresse": "Rue Mohamed Brahimi, Biskra",
+      "wilaya": "Biskra",
+      "contact": {
+        "telephones": [
+          "+213 33 73 34 88"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Mohamed%20Brahimi%2C%20Biskra",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 16,
+      "nom": "Agence Blida",
+      "adresse": "Avenue des frères Bensalah, Blida",
+      "wilaya": "Blida",
+      "contact": {
+        "telephones": [
+          "+213 25 39 18 56"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Avenue%20des%20fr%C3%A8res%20Bensalah%2C%20Blida",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 17,
+      "nom": "Agence Chlef",
+      "adresse": "10, Boulevard des Martyrs, Chlef",
+      "wilaya": "Chlef",
+      "contact": {
+        "telephones": [
+          "+213 27 77 13 64"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2010%2C%20Boulevard%20des%20Martyrs%2C%20Chlef",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 18,
+      "nom": "Agence Constantine",
+      "adresse": "1, Place des Martyrs, Constantine",
+      "wilaya": "Constantine",
+      "contact": {
+        "telephones": [
+          "+213 31 93 23 13",
+          "+213 31 93 23 56"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%201%2C%20Place%20des%20Martyrs%2C%20Constantine",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 19,
+      "nom": "Agence Djanet",
+      "adresse": "Siège, centre-ville, Djanet",
+      "wilaya": "Djanet",
+      "contact": {
+        "telephones": [
+          "+213 29 47 50 32"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Si%C3%A8ge%2C%20centre-ville%2C%20Djanet",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 20,
+      "nom": "Agence El Golea (El Ménia)",
+      "adresse": "Rue de la Liberté, El Golea",
+      "wilaya": "El Menia",
+      "contact": {
+        "telephones": [
+          "+213 29 81 61 00"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20de%20la%20Libert%C3%A9%2C%20El%20Golea",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 21,
+      "nom": "Agence Ghardaïa",
+      "adresse": "Centre commercial Taghaoussa, Ghardaïa",
+      "wilaya": "Ghardaïa",
+      "contact": {
+        "telephones": [
+          "+213 29 88 45 50"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Centre%20commercial%20Taghaoussa%2C%20Gharda%C3%AFa",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 22,
+      "nom": "Agence Hassi Messaoud",
+      "adresse": "Centre-ville, Hassi Messaoud",
+      "wilaya": "Ouargla",
+      "contact": {
+        "telephones": [
+          "+213 29 73 72 13"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Centre-ville%2C%20Hassi%20Messaoud",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 23,
+      "nom": "Agence Illizi",
+      "adresse": "Aéroport Takhamelt, Illizi",
+      "wilaya": "Illizi",
+      "contact": {
+        "telephones": [
+          "+213 29 73 72 13"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20A%C3%A9roport%20Takhamelt%2C%20Illizi",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 24,
+      "nom": "Agence In Amenas",
+      "adresse": "Centre-ville, In Amenas",
+      "wilaya": "Illizi",
+      "contact": {
+        "telephones": [
+          "+213 29 43 93 00"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Centre-ville%2C%20In%20Amenas",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 25,
+      "nom": "Agence Jijel",
+      "adresse": "Rue Mohamed Boubzari, Jijel",
+      "wilaya": "Jijel",
+      "contact": {
+        "telephones": [
+          "+213 34 47 14 30"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Mohamed%20Boubzari%2C%20Jijel",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 26,
+      "nom": "Agence Laghouat",
+      "adresse": "Rue Khemisti, Laghouat",
+      "wilaya": "Laghouat",
+      "contact": {
+        "telephones": [
+          "+213 29 90 20 90"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Khemisti%2C%20Laghouat",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 27,
+      "nom": "Agence Mecheria",
+      "adresse": "Aéroport de Mecheria",
+      "wilaya": "Naâma",
+      "contact": {
+        "telephones": [
+          "+213 29 90 20 90"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20A%C3%A9roport%20de%20Mecheria",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 28,
+      "nom": "Agence Mostaganem",
+      "adresse": "Avenue Benayed Bendhiba, Mostaganem",
+      "wilaya": "Mostaganem",
+      "contact": {
+        "telephones": [
+          "+213 45 21 22 76"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Avenue%20Benayed%20Bendhiba%2C%20Mostaganem",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 29,
+      "nom": "Agence Ouargla",
+      "adresse": "Rue Souk Essabt, Ouargla",
+      "wilaya": "Ouargla",
+      "contact": {
+        "telephones": [
+          "+213 29 76 11 95"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Souk%20Essabt%2C%20Ouargla",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "id": 30,
+      "nom": "Agence Sétif",
+      "adresse": "13, Avenue du 8 Mai 1945, Sétif",
+      "wilaya": "Sétif",
+      "contact": {
+        "telephones": [
+          "+213 36 93 64 06"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2013%2C%20Avenue%20du%208%20Mai%201945%2C%20S%C3%A9tif",
+      "source": "aeronautique.ma",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier"
+    },
+    {
+      "nom": "Siège social",
+      "adresse": "Quartier d'Affaires d'Alger, Îlot n°01, Lot n°01, Bab Ezzouar, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": "Alger",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 98 63 63"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Quartier%20d%27Affaires%20d%27Alger%2C%20%C3%8Elot%20n%C2%B001%2C%20Lot%20n%C2%B001%2C%20Bab%20Ezzouar%2C%20Alger",
+      "source": "airalgerie.dz",
+      "id": 31
+    },
+    {
+      "nom": "Agence Aéroport Houari Boumediene",
+      "adresse": "BP 247, Dar El Beïda, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": "Alger",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 50 94 98",
+          "+213 21 50 95 48"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20BP%20247%2C%20Dar%20El%20Be%C3%AFda%2C%20Alger",
+      "source": "airalgerie.info",
+      "id": 32
+    },
+    {
+      "nom": "Agence El Harrach",
+      "adresse": "1, Place de la République, El Harrach, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": "Alger",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 68 95 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%201%2C%20Place%20de%20la%20R%C3%A9publique%2C%20El%20Harrach%2C%20Alger",
+      "source": "airalgerie.info",
+      "id": 33
+    },
+    {
+      "nom": "Agence Rouiba",
+      "adresse": "Cité 63 Logements, Rouiba, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": "Alger",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 68 95 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Cit%C3%A9%2063%20Logements%2C%20Rouiba%2C%20Alger",
+      "source": "airalgerie.info",
+      "id": 34
+    },
+    {
+      "nom": "Agence Paris Opéra",
+      "adresse": "18 avenue de l'Opéra, 75001 Paris",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Paris",
+      "statut": "ouverte (siège de l'établissement France)",
+      "contact": {
+        "telephones": [
+          "+33 1 47 03 74 00"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2018%20avenue%20de%20l%27Op%C3%A9ra%2C%2075001%20Paris",
+      "source": "airalgerie.dz",
+      "id": 35
+    },
+    {
+      "nom": "Agence Marseille centre",
+      "adresse": "17/19 boulevard Maurice Bourdet, 13001 Marseille",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Marseille",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+33 4 95 09 30 90",
+          "+33 4 95 09 31 10"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2017/19%20boulevard%20Maurice%20Bourdet%2C%2013001%20Marseille",
+      "source": "airalgerie.info / aeronautique.ma / infos-algerie.com",
+      "id": 36
+    },
+    {
+      "nom": "Agence Aéroport Marseille Provence",
+      "adresse": "Aéroport Marseille Provence, 13700 Marignane",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Marignane",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+33 4 42 14 22 72"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20A%C3%A9roport%20Marseille%20Provence%2C%2013700%20Marignane",
+      "source": "passionalgerie.com",
+      "id": 37
+    },
+    {
+      "nom": "Agence Lyon",
+      "adresse": "14 quai Général Sarrail, 69006 Lyon",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Lyon",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+33 4 78 42 64 95"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2014%20quai%20G%C3%A9n%C3%A9ral%20Sarrail%2C%2069006%20Lyon",
+      "source": "airalgerie.info / aeronautique.ma / infos-algerie.com",
+      "id": 38
+    },
+    {
+      "nom": "Agence Toulouse",
+      "adresse": "9 bis boulevard de Strasbourg, 31000 Toulouse",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Toulouse",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+33 5 61 21 80 30"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%209%20bis%20boulevard%20de%20Strasbourg%2C%2031000%20Toulouse",
+      "source": "airalgerie.info / aeronautique.ma / infos-algerie.com",
+      "id": 39
+    },
+    {
+      "nom": "Agence Metz",
+      "adresse": "5/7 rue Pierre Perrat, 57000 Metz",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Metz",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+33 3 87 66 25 58"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%205/7%20rue%20Pierre%20Perrat%2C%2057000%20Metz",
+      "source": "airalgerie.info / aeronautique.ma / infos-algerie.com",
+      "id": 40
+    },
+    {
+      "nom": "Agence Aéroport Nice Côte d'Azur",
+      "adresse": "Terminal 2, Aéroport Nice Côte d'Azur, 06281 Nice",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Nice",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+33 4 93 21 48 20"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Terminal%202%2C%20A%C3%A9roport%20Nice%20C%C3%B4te%20d%27Azur%2C%2006281%20Nice",
+      "source": "airalgerie.info / aeronautique.ma / infos-algerie.com",
+      "id": 41
+    },
+    {
+      "nom": "Agence Lille",
+      "adresse": "Aéroport de Lille-Lesquin, 59810 Lesquin",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Lille",
+      "statut": "signalée définitivement fermée par airalgerie.info",
+      "contact": {
+        "telephones": [
+          "+33 3 20 06 19 30"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20A%C3%A9roport%20de%20Lille-Lesquin%2C%2059810%20Lesquin",
+      "source": "airalgerie.info",
+      "id": 42
+    },
+    {
+      "nom": "Agence Aéroport Bordeaux-Mérignac",
+      "adresse": "Aéroport Bordeaux-Mérignac (Aviapartner)",
+      "wilaya": null,
+      "pays": "France",
+      "ville": "Bordeaux",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20A%C3%A9roport%20Bordeaux-M%C3%A9rignac%20%28Aviapartner%29",
+      "source": "infos-algerie.com",
+      "id": 43
+    },
+    {
+      "nom": "Agence Alicante",
+      "adresse": "Aéroport d'Alicante, 03071",
+      "wilaya": null,
+      "pays": "Espagne",
+      "ville": "Alicante",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+34 965 682 874"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20A%C3%A9roport%20d%27Alicante%2C%2003071",
+      "source": "aeronautique.ma",
+      "id": 44
+    },
+    {
+      "nom": "Agence Barcelone",
+      "adresse": "243 Carrer de València, entresuelo, 08007 Barcelone",
+      "wilaya": null,
+      "pays": "Espagne",
+      "ville": "Barcelone",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+34 93 216 00 08"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20243%20Carrer%20de%20Val%C3%A8ncia%2C%20entresuelo%2C%2008007%20Barcelone",
+      "source": "aeronautique.ma",
+      "id": 45
+    },
+    {
+      "nom": "Agence Madrid",
+      "adresse": "Gran Vía 67, 4e étage, 28013 Madrid",
+      "wilaya": null,
+      "pays": "Espagne",
+      "ville": "Madrid",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+34 91 542 34 10"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Gran%20V%C3%ADa%2067%2C%204e%20%C3%A9tage%2C%2028013%20Madrid",
+      "source": "aeronautique.ma",
+      "id": 46
+    },
+    {
+      "nom": "Agence Palma Mallorca",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Espagne",
+      "ville": "Palma de Majorque",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Palma%20Mallorca%20Palma%20de%20Majorque%20Espagne",
+      "source": "airalgerie.info",
+      "id": 47
+    },
+    {
+      "nom": "Agence Valence",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Espagne",
+      "ville": "Valence",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Valence%20Valence%20Espagne",
+      "source": "airalgerie.info",
+      "id": 48
+    },
+    {
+      "nom": "Agence Bruxelles",
+      "adresse": "101/103 boulevard Adolphe Max, 1000 Bruxelles",
+      "wilaya": null,
+      "pays": "Belgique",
+      "ville": "Bruxelles",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+32 2 218 61 63",
+          "+32 2 219 82 33"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20101/103%20boulevard%20Adolphe%20Max%2C%201000%20Bruxelles",
+      "source": "airalgerie.info / annuaire-airvol.com",
+      "id": 49
+    },
+    {
+      "nom": "Agence Charleroi",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Belgique",
+      "ville": "Charleroi",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Charleroi%20Charleroi%20Belgique",
+      "source": "airalgerie.info",
+      "id": 50
+    },
+    {
+      "nom": "Agence Francfort",
+      "adresse": "Friedensstraße 5, 60311 Francfort (orthographe à confirmer)",
+      "wilaya": null,
+      "pays": "Allemagne",
+      "ville": "Francfort",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+49 69 24 00 15 41"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Friedensstra%C3%9Fe%205%2C%2060311%20Francfort%20%28orthographe%20%C3%A0%20confirmer%29",
+      "source": "aeronautique.ma",
+      "id": 51
+    },
+    {
+      "nom": "Agence Berlin",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Allemagne",
+      "ville": "Berlin",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Berlin%20Berlin%20Allemagne",
+      "source": "visa-algerie.com",
+      "id": 52
+    },
+    {
+      "nom": "Agence Londres",
+      "adresse": "4 Portman Square, London W1H 6LD",
+      "wilaya": null,
+      "pays": "Royaume-Uni",
+      "ville": "Londres",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+44 20 7486 8068",
+          "+44 2045 253188 (centre d'appel)"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%204%20Portman%20Square%2C%20London%20W1H%206LD",
+      "source": "aeronautique.ma / airalgerie.dz",
+      "id": 53
+    },
+    {
+      "nom": "Agence Rome",
+      "adresse": "Via Quattro Fontane 177/178, 00184 Rome",
+      "wilaya": null,
+      "pays": "Italie",
+      "ville": "Rome",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+39 06 481 47 36"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Via%20Quattro%20Fontane%20177/178%2C%2000184%20Rome",
+      "source": "aeronautique.ma / airalgerie.dz",
+      "id": 54
+    },
+    {
+      "nom": "Agence Milan",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Italie",
+      "ville": "Milan",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Milan%20Milan%20Italie",
+      "source": "visa-algerie.com",
+      "id": 55
+    },
+    {
+      "nom": "Agence Moscou",
+      "adresse": "Yaroslavskaya 17, Hôtel Globus, B110, 129366 Moscou",
+      "wilaya": null,
+      "pays": "Russie",
+      "ville": "Moscou",
+      "statut": "à vérifier (ancienne source)",
+      "contact": {
+        "telephones": [
+          "+7 495 789 30 68"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Yaroslavskaya%2017%2C%20H%C3%B4tel%20Globus%2C%20B110%2C%20129366%20Moscou",
+      "source": "aeronautique.ma",
+      "id": 56
+    },
+    {
+      "nom": "Agence Montréal",
+      "adresse": "550 rue Sherbrooke Ouest, Suite L-9, Montréal QC H3A 1B9",
+      "wilaya": null,
+      "pays": "Canada",
+      "ville": "Montréal",
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+1 514 905 01 47 (à confirmer)"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20550%20rue%20Sherbrooke%20Ouest%2C%20Suite%20L-9%2C%20Montr%C3%A9al%20QC%20H3A%201B9",
+      "source": "airalgerie.info",
+      "id": 57
+    },
+    {
+      "nom": "Agence Genève",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Suisse",
+      "ville": "Genève",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": [
+          "+41 21 530 94 83 (centre d'appel)"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Gen%C3%A8ve%20Gen%C3%A8ve%20Suisse",
+      "source": "airalgerie.dz",
+      "id": 58
+    },
+    {
+      "nom": "Agence Vienne",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Autriche",
+      "ville": "Vienne",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Vienne%20Vienne%20Autriche",
+      "source": "airalgerie.info",
+      "id": 59
+    },
+    {
+      "nom": "Agence Budapest",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Hongrie",
+      "ville": "Budapest",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Budapest%20Budapest%20Hongrie",
+      "source": "airalgerie.info",
+      "id": 60
+    },
+    {
+      "nom": "Agence Lisbonne",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Portugal",
+      "ville": "Lisbonne",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Lisbonne%20Lisbonne%20Portugal",
+      "source": "airalgerie.info",
+      "id": 61
+    },
+    {
+      "nom": "Agence Porto",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Portugal",
+      "ville": "Porto",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Porto%20Porto%20Portugal",
+      "source": "airalgerie.info",
+      "id": 62
+    },
+    {
+      "nom": "Agence Istanbul",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Turquie",
+      "ville": "Istanbul",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Istanbul%20Istanbul%20Turquie",
+      "source": "visa-algerie.com",
+      "id": 63
+    },
+    {
+      "nom": "Agence Antalya",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Turquie",
+      "ville": "Antalya",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Antalya%20Antalya%20Turquie",
+      "source": "visa-algerie.com",
+      "id": 64
+    },
+    {
+      "nom": "Agence Tunis",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Tunisie",
+      "ville": "Tunis",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Tunis%20Tunis%20Tunisie",
+      "source": "visa-algerie.com",
+      "id": 65
+    },
+    {
+      "nom": "Agence Casablanca",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Maroc",
+      "ville": "Casablanca",
+      "statut": "fermée définitivement (selon visa-algerie.com)",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Casablanca%20Casablanca%20Maroc",
+      "source": "visa-algerie.com",
+      "id": 66
+    },
+    {
+      "nom": "Agence Le Caire",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Égypte",
+      "ville": "Le Caire",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Le%20Caire%20Le%20Caire%20%C3%89gypte",
+      "source": "airalgerie.info",
+      "id": 67
+    },
+    {
+      "nom": "Agence Beyrouth",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Liban",
+      "ville": "Beyrouth",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Beyrouth%20Beyrouth%20Liban",
+      "source": "airalgerie.info",
+      "id": 68
+    },
+    {
+      "nom": "Agence Amman",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Jordanie",
+      "ville": "Amman",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Amman%20Amman%20Jordanie",
+      "source": "airalgerie.info",
+      "id": 69
+    },
+    {
+      "nom": "Agence Dubaï",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Émirats arabes unis",
+      "ville": "Dubaï",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Duba%C3%AF%20Duba%C3%AF%20%C3%89mirats%20arabes%20unis",
+      "source": "airalgerie.info",
+      "id": 70
+    },
+    {
+      "nom": "Agence Djeddah",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Arabie saoudite",
+      "ville": "Djeddah",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Djeddah%20Djeddah%20Arabie%20saoudite",
+      "source": "airalgerie.info",
+      "id": 71
+    },
+    {
+      "nom": "Agence Pékin",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Chine",
+      "ville": "Pékin",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20P%C3%A9kin%20P%C3%A9kin%20Chine",
+      "source": "airalgerie.info",
+      "id": 72
+    },
+    {
+      "nom": "Agence Nouakchott",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Mauritanie",
+      "ville": "Nouakchott",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Nouakchott%20Nouakchott%20Mauritanie",
+      "source": "airalgerie.info",
+      "id": 73
+    },
+    {
+      "nom": "Agence Niamey",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Niger",
+      "ville": "Niamey",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Niamey%20Niamey%20Niger",
+      "source": "airalgerie.info",
+      "id": 74
+    },
+    {
+      "nom": "Agence Dakar",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Sénégal",
+      "ville": "Dakar",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Dakar%20Dakar%20S%C3%A9n%C3%A9gal",
+      "source": "airalgerie.info",
+      "id": 75
+    },
+    {
+      "nom": "Agence Bamako",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Mali",
+      "ville": "Bamako",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Bamako%20Bamako%20Mali",
+      "source": "airalgerie.info",
+      "id": 76
+    },
+    {
+      "nom": "Agence Ouagadougou",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Burkina Faso",
+      "ville": "Ouagadougou",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Ouagadougou%20Ouagadougou%20Burkina%20Faso",
+      "source": "airalgerie.info",
+      "id": 77
+    },
+    {
+      "nom": "Agence Abidjan",
+      "adresse": null,
+      "wilaya": null,
+      "pays": "Côte d'Ivoire",
+      "ville": "Abidjan",
+      "statut": "adresse non trouvée",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Abidjan%20Abidjan%20C%C3%B4te%20d%27Ivoire",
+      "source": "airalgerie.info",
+      "id": 78
+    }
+  ],
+  "portee": "Algérie et étranger",
+  "total": 78
+}
