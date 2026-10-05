@@ -13,25 +13,61 @@ export default function Page() {
   const [city, setCity] = useState('Toutes les villes')
   const [openOnly, setOpenOnly] = useState(false)
   const [selected, setSelected] = useState<Agency | null>(null)
+  const [aiPending, setAiPending] = useState(false)
+  const [aiCity, setAiCity] = useState<string | null>(null)
+  const [aiMessage, setAiMessage] = useState('')
+
+  const searchScore = (value: string, target: string) => {
+    const source = normalize(value)
+    const candidate = normalize(target)
+    if (!source) return 0
+    if (candidate === source) return 100
+    if (candidate.includes(source)) return 85
+    let matches = 0
+    for (const character of source) if (candidate.includes(character)) matches += 1
+    return Math.round((matches / source.length) * 70)
+  }
 
   const filtered = useMemo(() => {
     const normalizedQuery = normalize(query.trim())
-    const exactCitySearch = normalizedQuery
-      ? agencies.some((agency) => normalize(agency.city) === normalizedQuery)
-      : false
+    const exactCitySearch = normalizedQuery ? agencies.some((agency) => normalize(agency.city) === normalizedQuery) : false
 
     return agencies.filter((agency) => {
+      const cityScore = searchScore(normalizedQuery, agency.city)
       const haystack = normalize(Object.values(agency).join(' '))
-      const matchesQuery = !normalizedQuery || (exactCitySearch
-        ? normalize(agency.city) === normalizedQuery
-        : haystack.includes(normalizedQuery))
+      const matchesQuery = !normalizedQuery || (aiCity ? normalize(agency.city) === normalize(aiCity) : exactCitySearch ? normalize(agency.city) === normalizedQuery : cityScore >= 45 || haystack.includes(normalizedQuery))
       const matchesType = type === 'all' || agency.type === type
-    const matchesCountry = country === 'Tous les pays' || agency.country === country
-    const matchesCity = city === 'Toutes les villes' || agency.city === city
-    const matchesOpen = !openOnly || getAgencyStatus(agency) === 'Ouvert maintenant'
+      const matchesCountry = country === 'Tous les pays' || agency.country === country
+      const matchesCity = city === 'Toutes les villes' || agency.city === city
+      const matchesOpen = !openOnly || getAgencyStatus(agency) === 'Ouvert maintenant'
       return matchesQuery && matchesType && matchesCountry && matchesCity && matchesOpen
-    })
-  }, [city, country, openOnly, query, type])
+    }).sort((a, b) => searchScore(normalizedQuery, b.city) - searchScore(normalizedQuery, a.city))
+  }, [aiCity, city, country, openOnly, query, type])
+
+  const askAi = async () => {
+    if (!query.trim()) return
+    const fallback = agencies
+      .map((agency) => ({ city: agency.city, score: searchScore(query, agency.city) }))
+      .sort((a, b) => b.score - a.score)[0]
+    setAiPending(true)
+    setAiMessage('Analyse de votre recherche…')
+    const controller = new AbortController()
+    const timeout = window.setTimeout(() => controller.abort(), 4500)
+    try {
+      const response = await fetch('/api/agency-search', { signal: controller.signal, method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query }) })
+      const data = await response.json() as { city?: string | null }
+      const cityMatch = data.city || (fallback?.score >= 45 ? fallback.city : null)
+      setAiCity(cityMatch)
+      setAiMessage(cityMatch ? `Agence la plus pertinente : ${cityMatch}` : 'Recherche approximative activée')
+    } catch {
+      const cityMatch = fallback?.score >= 45 ? fallback.city : null
+      setAiCity(cityMatch)
+      setAiMessage(cityMatch ? `Agence la plus pertinente : ${cityMatch}` : 'Recherche approximative activée')
+    } finally {
+      window.clearTimeout(timeout)
+      setAiPending(false)
+    }
+  }
 
   return <div className="app-shell">
     <header className="topbar">
@@ -47,7 +83,7 @@ export default function Page() {
     </header>
     <div className="red-line" />
     <main className="main-content single-page"><section className="hero"><p className="eyebrow">AIR ALGÉRIE · RÉSEAU DES AGENCES</p><h1>Trouver une agence Air Algérie</h1><p className="heading-copy">Recherchez par ville, pays, nom, téléphone ou email.</p></section>
-      <section className="search-panel"><div className="search-box"><Search size={21} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Rechercher une agence, une ville, un pays, un téléphone ou un email..." aria-label="Rechercher une agence" /></div><div className="search-options"><div className="scope-tabs"><button onClick={() => setType('all')} className={type === 'all' ? 'scope-active' : ''}>Toutes</button><button onClick={() => setType('national')} className={type === 'national' ? 'scope-active' : ''}><Building2 data-icon="inline-start" />Nationales</button><button onClick={() => setType('international')} className={type === 'international' ? 'scope-active' : ''}><Globe2 data-icon="inline-start" />Internationales</button></div><div className="quick-filters"><label>Pays<select value={country} onChange={(event) => setCountry(event.target.value)}><option>Tous les pays</option>{countries.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={14} /></label><label>Ville<select value={city} onChange={(event) => setCity(event.target.value)}><option>Toutes les villes</option>{citiesList.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={14} /></label><button className={openOnly ? 'filter-active' : ''} onClick={() => setOpenOnly(!openOnly)}>Ouvert maintenant</button></div></div></section>
+      <section className="search-panel"><div className="search-box"><Search size={21} /><input value={query} onChange={(event) => { setQuery(event.target.value); setAiCity(null); setAiMessage('') }} onKeyDown={(event) => { if (event.key === 'Enter' && !event.nativeEvent.isComposing && event.keyCode !== 229) void askAi() }} placeholder="Essayez : aleger, oran, paris…" aria-label="Rechercher une agence" /><button className="ai-search-button" onClick={() => void askAi()} disabled={aiPending}>{aiPending ? 'Analyse…' : 'Recherche intelligente'}</button></div>{aiMessage && <p className="ai-search-message">{aiMessage}</p>}<div className="search-options"><div className="scope-tabs"><button onClick={() => setType('all')} className={type === 'all' ? 'scope-active' : ''}>Toutes</button><button onClick={() => setType('national')} className={type === 'national' ? 'scope-active' : ''}><Building2 data-icon="inline-start" />Nationales</button><button onClick={() => setType('international')} className={type === 'international' ? 'scope-active' : ''}><Globe2 data-icon="inline-start" />Internationales</button></div><div className="quick-filters"><label>Pays<select value={country} onChange={(event) => setCountry(event.target.value)}><option>Tous les pays</option>{countries.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={14} /></label><label>Ville<select value={city} onChange={(event) => setCity(event.target.value)}><option>Toutes les villes</option>{citiesList.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={14} /></label><button className={openOnly ? 'filter-active' : ''} onClick={() => setOpenOnly(!openOnly)}>Ouvert maintenant</button></div></div></section>
       <div className="results-header"><div><h2>Agences disponibles</h2><span>{filtered.length} agence{filtered.length !== 1 ? 's' : ''} trouvée{filtered.length !== 1 ? 's' : ''}</span></div><span className="dataset-note">{agencies.length} points dans le réseau</span></div>
       {filtered.length ? <div className="agency-grid">{filtered.map((agency) => <AgencyCard key={agency.id} agency={agency} onOpen={() => setSelected(agency)} />)}</div> : <div className="empty-state"><Search size={28} /><h3>Aucune agence trouvée</h3><p>Essayez une autre ville, un autre pays ou un numéro de téléphone.</p></div>}
     </main>{selected && <AgencyDetails agency={selected} onClose={() => setSelected(null)} />}</div>
