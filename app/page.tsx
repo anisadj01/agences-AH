@@ -1,7 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import { Building2, Check, ChevronDown, Clock3, Copy, Globe2, Mail, MapPin, Phone, Search, X } from 'lucide-react'
+import { Building2, Check, ChevronDown, Clock3, Copy, Flag, Globe2, Mail, MapPin, Phone, PhoneCall, Search, X } from 'lucide-react'
 import { agencies, citiesList, countries, getAgencyStatus, googleMapsUrl, normalize, type Agency } from '@/data/agencies'
 
 const empty = 'À vérifier'
@@ -34,6 +34,18 @@ export default function Page() {
   }, [city, country, openOnly, query, type])
 
   return <div className="app-shell">
+    <header className="topbar">
+      <div className="brand-lockup">
+        <div className="brand-mark">AH</div>
+        <div><div className="brand-name">Agences Air Algérie</div><div className="brand-subtitle">Outil Call Center</div></div>
+      </div>
+      <div className="top-actions">
+        <span className="header-context"><Flag data-icon="inline-start" /> National</span>
+        <span className="header-context"><Globe2 data-icon="inline-start" /> International</span>
+        <PhoneCall aria-label="Outil Call Center" />
+      </div>
+    </header>
+    <div className="red-line" />
     <main className="main-content single-page"><section className="hero"><p className="eyebrow">AIR ALGÉRIE · RÉSEAU DES AGENCES</p><h1>Trouver une agence Air Algérie</h1><p className="heading-copy">Recherchez par ville, pays, nom, téléphone ou email.</p></section>
       <section className="search-panel"><div className="search-box"><Search size={21} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Rechercher une agence, une ville, un pays, un téléphone ou un email..." aria-label="Rechercher une agence" /></div><div className="search-options"><div className="scope-tabs"><button onClick={() => setType('all')} className={type === 'all' ? 'scope-active' : ''}>Toutes</button><button onClick={() => setType('national')} className={type === 'national' ? 'scope-active' : ''}><Building2 data-icon="inline-start" />Nationales</button><button onClick={() => setType('international')} className={type === 'international' ? 'scope-active' : ''}><Globe2 data-icon="inline-start" />Internationales</button></div><div className="quick-filters"><label>Pays<select value={country} onChange={(event) => setCountry(event.target.value)}><option>Tous les pays</option>{countries.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={14} /></label><label>Ville<select value={city} onChange={(event) => setCity(event.target.value)}><option>Toutes les villes</option>{citiesList.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={14} /></label><button className={openOnly ? 'filter-active' : ''} onClick={() => setOpenOnly(!openOnly)}>Ouvert maintenant</button></div></div></section>
       <div className="results-header"><div><h2>Agences disponibles</h2><span>{filtered.length} agence{filtered.length !== 1 ? 's' : ''} trouvée{filtered.length !== 1 ? 's' : ''}</span></div><span className="dataset-note">{agencies.length} points dans le réseau</span></div>
