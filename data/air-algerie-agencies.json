@@ -2,7 +2,7 @@
   "compagnie": "Air Algérie",
   "pays": "Algérie",
   "date_collecte": "2026-10-05",
-  "avertissement": "Liste NON exhaustive. Air Algérie annonce environ 130 agences/bureaux dans 28 pays, mais sa carte officielle est dynamique et n'a pas pu être lue. Données compilées depuis des annuaires tiers, parfois anciens ; plusieurs agences ont fermé (Casablanca, Lille...). Adresse null = ville connue mais adresse non trouvée. Les liens Google Maps sont des recherches (pas des coordonnées GPS). Vérifier sur airalgerie.dz. Centres d'appel: Algérie +213 21 98 63 63 (court 3302), France +33 1 76 54 40 00, Suisse +41 21 530 94 83, Espagne +34 912 693 434, Royaume-Uni +44 2045 253188.",
+  "avertissement": "Liste NON exhaustive. Air Algérie annonce environ 130 agences/bureaux dans 28 pays, mais sa carte officielle est dynamique et n'a pas pu être lue (carte dynamique) et le site airalgerie.info bloque l'accès automatique. Données compilées depuis des annuaires tiers, parfois anciens ; plusieurs agences ont fermé (Casablanca, Lille...). Adresse null = ville connue mais adresse non trouvée. Les liens Google Maps sont des recherches (pas des coordonnées GPS). Vérifier sur airalgerie.dz. Centres d'appel: Algérie +213 21 98 63 63 (court 3302), France +33 1 76 54 40 00, Suisse +41 21 530 94 83, Espagne +34 912 693 434, Royaume-Uni +44 2045 253188. Beaucoup de numéros d'agences provinciales publiés par les annuaires sont en réalité des lignes régionales ou centrales (champ remarque).",
   "agences": [
     {
       "id": 1,
@@ -105,7 +105,7 @@
     },
     {
       "id": 7,
-      "nom": "Agence Maurice Audin",
+      "nom": "Agence Alger centre Audin",
       "adresse": "1, Place Maurice Audin, Alger",
       "wilaya": "Alger",
       "contact": {
@@ -122,14 +122,14 @@
     {
       "id": 8,
       "nom": "Agence Didouche Mourad",
-      "adresse": "Rue Didouche Mourad, Alger Centre, 16000 Alger",
+      "adresse": "39, Rue Didouche Mourad, Alger Centre, 16000 Alger",
       "wilaya": "Alger",
       "contact": {
         "telephones": [
           "+213 21 63 41 61"
         ]
       },
-      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Didouche%20Mourad%2C%20Alger%20Centre%2C%2016000%20Alger",
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2039%2C%20Rue%20Didouche%20Mourad%2C%20Alger%20Centre%2C%2016000%20Alger",
       "source": "alger-city.com / franvol.com / annuaire-airvol.com",
       "pays": "Algérie",
       "ville": null,
@@ -137,7 +137,7 @@
     },
     {
       "id": 9,
-      "nom": "Agence El Biar",
+      "nom": "Agence Ali Khoudja El Biar",
       "adresse": "98, Rue Ali Khodja, El Biar, 16000 Alger",
       "wilaya": "Alger",
       "contact": {
@@ -1209,8 +1209,849 @@
       "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Agence%20Abidjan%20Abidjan%20C%C3%B4te%20d%27Ivoire",
       "source": "airalgerie.info",
       "id": 78
+    },
+    {
+      "nom": "Agence Chéraga",
+      "adresse": "Place de l'Emir Abdelkader, 16002 Chéraga, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 37 10 40",
+          "+213 24 48 31 24"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Place%20de%20l%27Emir%20Abdelkader%2C%2016002%20Ch%C3%A9raga%2C%20Alger",
+      "source": "airalgerie.info / vitaminedz.com / algerie.flights",
+      "id": 79
+    },
+    {
+      "nom": "Agence Hôtel El Aurassi",
+      "adresse": "1 Avenue du Docteur Frantz Fanon (hôtel El Aurassi, 2 bd Frantz Fanon), Alger Centre",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 68 95 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%201%20Avenue%20du%20Docteur%20Frantz%20Fanon%20%28h%C3%B4tel%20El%20Aurassi%2C%202%20bd%20Frantz%20Fanon%29%2C%20Alger%20Centre",
+      "source": "airalgerie.info",
+      "remarque": "Le 2 bd Frantz Fanon est l'adresse de l'hôtel",
+      "id": 80
+    },
+    {
+      "nom": "Agence Hôtel Sofitel Hamma Garden",
+      "adresse": "Hôtel Sofitel Algiers Hamma Garden, 172 rue Hassiba Benbouali, 16015 Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20H%C3%B4tel%20Sofitel%20Algiers%20Hamma%20Garden%2C%20172%20rue%20Hassiba%20Benbouali%2C%2016015%20Alger",
+      "source": "vol-algerie.info (agence signalée dans l'hôtel) / sofitel.accor.com (adresse hôtel)",
+      "remarque": "Téléphone propre à l'agence non trouvé ; standard Alger +213 21 98 63 63",
+      "id": 81
+    },
+    {
+      "nom": "Agence Hôtel Sheraton (Club des Pins)",
+      "adresse": "Hôtel Sheraton, Club des Pins, Staoueli, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 37 65 37"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20H%C3%B4tel%20Sheraton%2C%20Club%20des%20Pins%2C%20Staoueli%2C%20Alger",
+      "source": "airalgerie.info",
+      "id": 82
+    },
+    {
+      "nom": "Agence Hôtel Riadh El Fath",
+      "adresse": "Boulevard Khelifa Boukhalfa / Bd Khelifa Oulmane, Riadh El Fath, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Boulevard%20Khelifa%20Boukhalfa%20/%20Bd%20Khelifa%20Oulmane%2C%20Riadh%20El%20Fath%2C%20Alger",
+      "source": "airalgerie.info",
+      "remarque": "Adresse telle que publiée : Boulevard Khelifa Oulmane ; téléphone non trouvé",
+      "id": 83
+    },
+    {
+      "nom": "Agence Alger Mohamed 5",
+      "adresse": "48, Rue Mohamed V, Alger Centre",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 68 95 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2048%2C%20Rue%20Mohamed%20V%2C%20Alger%20Centre",
+      "source": "airalgerie.info",
+      "id": 84
+    },
+    {
+      "nom": "Agence Alger Pasteur",
+      "adresse": "05, Avenue Pasteur, Alger Centre",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 68 95 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2005%2C%20Avenue%20Pasteur%2C%20Alger%20Centre",
+      "source": "airalgerie.info",
+      "id": 85
+    },
+    {
+      "nom": "Agence Port d'Alger",
+      "adresse": "Rue d'Angkor, Alger Centre",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 68 95 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20d%27Angkor%2C%20Alger%20Centre",
+      "source": "airalgerie.info",
+      "id": 86
+    },
+    {
+      "nom": "Agence Bougara El Biar",
+      "adresse": "233, Avenue Bougara, El Biar, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 92 15 43"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20233%2C%20Avenue%20Bougara%2C%20El%20Biar%2C%20Alger",
+      "source": "airalgerie.info",
+      "id": 87
+    },
+    {
+      "nom": "Agence Terminal Alger Centre",
+      "adresse": "5, Rue des Frères Amrouche, Alger Centre",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 98 63 63"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%205%2C%20Rue%20des%20Fr%C3%A8res%20Amrouche%2C%20Alger%20Centre",
+      "source": "airalgerie.info",
+      "id": 88
+    },
+    {
+      "nom": "Agence Aéroport National d'Alger",
+      "adresse": "BP 247, Dar El Beïda, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 21 68 95 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20BP%20247%2C%20Dar%20El%20Be%C3%AFda%2C%20Alger",
+      "source": "airalgerie.info",
+      "id": 89
+    },
+    {
+      "nom": "Agence Bordj El Kiffan",
+      "adresse": "Bordj El Kiffan, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Bordj%20El%20Kiffan%2C%20Alger",
+      "source": "vol-algerie.info",
+      "remarque": "Adresse exacte non trouvée",
+      "id": 90
+    },
+    {
+      "nom": "Agence Belouizdad",
+      "adresse": "Rue Belouizdad, Alger",
+      "wilaya": "Alger",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Belouizdad%2C%20Alger",
+      "source": "vol-algerie.info",
+      "remarque": "Adresse exacte non trouvée",
+      "id": 91
+    },
+    {
+      "nom": "Agence Boufarik",
+      "adresse": "Gare ferroviaire / Rue Si Smaïl, Boufarik",
+      "wilaya": "Blida",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 25 47 33 43"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Gare%20ferroviaire%20/%20Rue%20Si%20Sma%C3%AFl%2C%20Boufarik",
+      "source": "airalgerie.info / waze.com",
+      "id": 92
+    },
+    {
+      "nom": "Agence Boumerdès",
+      "adresse": "Cité 800 Logements, Bâtiment 06, Boumerdès",
+      "wilaya": "Boumerdès",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 24 79 84 41"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Cit%C3%A9%20800%20Logements%2C%20B%C3%A2timent%2006%2C%20Boumerd%C3%A8s",
+      "source": "airalgerie.info / algerie.flights",
+      "remarque": "Autre source : Cité 408 logements, Bât. 6",
+      "id": 93
+    },
+    {
+      "nom": "Agence Bouira",
+      "adresse": "Cité 56 Logements, Bâtiment A, 10000 Bouira",
+      "wilaya": "Bouira",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 26 94 25 50"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Cit%C3%A9%2056%20Logements%2C%20B%C3%A2timent%20A%2C%2010000%20Bouira",
+      "source": "airalgerie.info / vitaminedz.com",
+      "id": 94
+    },
+    {
+      "nom": "Agence Médéa",
+      "adresse": "Rue Si Smaïl et Zidane, Médéa",
+      "wilaya": "Médéa",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Si%20Sma%C3%AFl%20et%20Zidane%2C%20M%C3%A9d%C3%A9a",
+      "source": "airalgerie.info",
+      "remarque": "Téléphone propre à l'agence non trouvé",
+      "id": 95
+    },
+    {
+      "nom": "Agence Djelfa",
+      "adresse": "Avenue Colonel Bougasmi, Djelfa",
+      "wilaya": "Djelfa",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Avenue%20Colonel%20Bougasmi%2C%20Djelfa",
+      "source": "airalgerie.info",
+      "remarque": "Téléphone propre à l'agence non trouvé",
+      "id": 96
+    },
+    {
+      "nom": "Agence Tizi Ouzou",
+      "adresse": "Avenue Larbi Ben M'hidi (Cité 20 Août), Tizi Ouzou",
+      "wilaya": "Tizi Ouzou",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 26 20 24 61"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Avenue%20Larbi%20Ben%20M%27hidi%20%28Cit%C3%A9%2020%20Ao%C3%BBt%29%2C%20Tizi%20Ouzou",
+      "source": "airalgerie.info / franvol.com",
+      "remarque": "Anciennes sources : Rue Abane Ramdane",
+      "id": 97
+    },
+    {
+      "nom": "Agence Azazga",
+      "adresse": "RDC Bibliothèque communale, Azazga",
+      "wilaya": "Tizi Ouzou",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 26 14 25 00",
+          "+213 26 20 24 61"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20RDC%20Biblioth%C3%A8que%20communale%2C%20Azazga",
+      "source": "airalgerie.info / algerie.flights",
+      "id": 98
+    },
+    {
+      "nom": "Agence Tindouf",
+      "adresse": "Boulevard du 1er Novembre 1954, Tindouf",
+      "wilaya": "Tindouf",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 49 92 23 94"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Boulevard%20du%201er%20Novembre%201954%2C%20Tindouf",
+      "source": "annuaire-airvol.com / aeronautique.ma",
+      "remarque": "airalgerie.info indique aussi : Gare routière",
+      "id": 99
+    },
+    {
+      "nom": "Agence Tébessa",
+      "adresse": "Place du 1er Novembre 1954, Tébessa",
+      "wilaya": "Tébessa",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 37 48 47 25"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Place%20du%201er%20Novembre%201954%2C%20T%C3%A9bessa",
+      "source": "aeronautique.ma",
+      "id": 100
+    },
+    {
+      "nom": "Agence Tiaret",
+      "adresse": "Boulevard Emir Abdelkader, Tiaret",
+      "wilaya": "Tiaret",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 46 41 80 76"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Boulevard%20Emir%20Abdelkader%2C%20Tiaret",
+      "source": "airalgerie.info / aeronautique.ma",
+      "id": 101
+    },
+    {
+      "nom": "Agence Timimoun",
+      "adresse": "Place de l'Indépendance, Timimoun",
+      "wilaya": "Timimoun",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 49 90 45 55"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Place%20de%20l%27Ind%C3%A9pendance%2C%20Timimoun",
+      "source": "aeronautique.ma",
+      "id": 102
+    },
+    {
+      "nom": "Agence Tlemcen centre",
+      "adresse": "Place Kairaouane / Rue du Docteur Damardji Tedjani, Tlemcen",
+      "wilaya": "Tlemcen",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 43 26 45 18",
+          "+213 43 26 45 21"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Place%20Kairaouane%20/%20Rue%20du%20Docteur%20Damardji%20Tedjani%2C%20Tlemcen",
+      "source": "airalgerie.info / aeronautique.ma / algdz.com",
+      "id": 103
+    },
+    {
+      "nom": "Agence Aéroport Messali El Hadj Tlemcen",
+      "adresse": "Aéroport Messali El Hadj, 13000 Tlemcen",
+      "wilaya": "Tlemcen",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 43 24 63 14"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20A%C3%A9roport%20Messali%20El%20Hadj%2C%2013000%20Tlemcen",
+      "source": "algdz.com",
+      "id": 104
+    },
+    {
+      "nom": "Agence Sidi Bel Abbès",
+      "adresse": "8 (ou 1), Rue Lalout Belabbès, 22000 Sidi Bel Abbès",
+      "wilaya": "Sidi Bel Abbès",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 48 74 32 19"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%208%20%28ou%201%29%2C%20Rue%20Lalout%20Belabb%C3%A8s%2C%2022000%20Sidi%20Bel%20Abb%C3%A8s",
+      "source": "airalgerie.info / franvol.com",
+      "remarque": "Numéro de rue différent selon les sources",
+      "id": 105
+    },
+    {
+      "nom": "Agence Saïda",
+      "adresse": "1, Avenue de l'Indépendance, 20000 Saïda",
+      "wilaya": "Saïda",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 48 51 85 87"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%201%2C%20Avenue%20de%20l%27Ind%C3%A9pendance%2C%2020000%20Sa%C3%AFda",
+      "source": "airalgerie.info / tidjaramarket.com",
+      "id": 106
+    },
+    {
+      "nom": "Agence Mascara",
+      "adresse": "Rue Emir Abdelkader, Mascara",
+      "wilaya": "Mascara",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 41 42 72 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Emir%20Abdelkader%2C%20Mascara",
+      "source": "airalgerie.info",
+      "remarque": "Téléphone = ligne régionale Oran",
+      "id": 107
+    },
+    {
+      "nom": "Agence Relizane",
+      "adresse": "Rue Benkhedda Missoum, Relizane",
+      "wilaya": "Relizane",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 41 42 72 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Rue%20Benkhedda%20Missoum%2C%20Relizane",
+      "source": "airalgerie.info",
+      "remarque": "Téléphone = ligne régionale Oran",
+      "id": 108
+    },
+    {
+      "nom": "Agence Aïn Témouchent",
+      "adresse": "23, Boulevard du 1er Novembre 1954, Aïn Témouchent",
+      "wilaya": "Aïn Témouchent",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 41 42 72 05"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%2023%2C%20Boulevard%20du%201er%20Novembre%201954%2C%20A%C3%AFn%20T%C3%A9mouchent",
+      "source": "airalgerie.info",
+      "remarque": "Téléphone = ligne régionale Oran",
+      "id": 109
+    },
+    {
+      "nom": "Agence Bordj Bou Arreridj",
+      "adresse": "Avenue de la République / de la Révolution, Bordj Bou Arreridj",
+      "wilaya": "Bordj Bou Arreridj",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 35 68 61 61"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Avenue%20de%20la%20R%C3%A9publique%20/%20de%20la%20R%C3%A9volution%2C%20Bordj%20Bou%20Arreridj",
+      "source": "airalgerie.info / vitaminedz.com",
+      "id": 110
+    },
+    {
+      "nom": "Agence Oum El Bouaghi",
+      "adresse": "Cité Hihi Mekki, Oum El Bouaghi",
+      "wilaya": "Oum El Bouaghi",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Cit%C3%A9%20Hihi%20Mekki%2C%20Oum%20El%20Bouaghi",
+      "source": "airalgerie.info",
+      "remarque": "Téléphone propre à l'agence non trouvé",
+      "id": 111
+    },
+    {
+      "nom": "Agence Aïn Beïda",
+      "adresse": "7, Rue Abdelhamid Benbadis, Aïn Beïda",
+      "wilaya": "Oum El Bouaghi",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 33 81 41 03"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%207%2C%20Rue%20Abdelhamid%20Benbadis%2C%20A%C3%AFn%20Be%C3%AFda",
+      "source": "airalgerie.info",
+      "id": 112
+    },
+    {
+      "nom": "Agence Skikda",
+      "adresse": "Place de la Liberté, Skikda",
+      "wilaya": "Skikda",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 38 75 45 41"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Place%20de%20la%20Libert%C3%A9%2C%20Skikda",
+      "source": "waze.com / airalgerie.info",
+      "remarque": "Autres sources : Complexe Zone Skikda ; Mahmoud Nafir",
+      "id": 113
+    },
+    {
+      "nom": "Agence Touggourt",
+      "adresse": "Place du 1er Novembre, Touggourt",
+      "wilaya": "Touggourt",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 29 68 26 68"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Place%20du%201er%20Novembre%2C%20Touggourt",
+      "source": "airalgerie.info / aeronautique.ma",
+      "id": 114
+    },
+    {
+      "nom": "Agence Tamanrasset",
+      "adresse": "Boulevard Emir Abdelkader, Tamanrasset",
+      "wilaya": "Tamanrasset",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 29 34 44 99"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Boulevard%20Emir%20Abdelkader%2C%20Tamanrasset",
+      "source": "airalgerie.info / aeronautique.ma",
+      "id": 115
+    },
+    {
+      "nom": "Agence Bordj Badji Mokhtar",
+      "adresse": "Grande place, Bordj Badji Mokhtar",
+      "wilaya": "Bordj Badji Mokhtar",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 49 96 93 65"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Grande%20place%2C%20Bordj%20Badji%20Mokhtar",
+      "source": "airalgerie.info",
+      "remarque": "Téléphone = ligne Adrar",
+      "id": 116
+    },
+    {
+      "nom": "Agence Berriane",
+      "adresse": "Berriane",
+      "wilaya": "Ghardaïa",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": [
+          "+213 29 88 45 50"
+        ]
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Berriane",
+      "source": "airalgerie.info",
+      "remarque": "Téléphone = ligne Ghardaïa ; adresse précise non trouvée",
+      "id": 117
+    },
+    {
+      "nom": "Agence Metlili",
+      "adresse": "Metlili",
+      "wilaya": "Ghardaïa",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Metlili",
+      "source": "airalgerie.info",
+      "remarque": "Adresse non trouvée",
+      "id": 118
+    },
+    {
+      "nom": "Agence Barika",
+      "adresse": "Barika",
+      "wilaya": "Batna",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20Barika",
+      "source": "airalgerie.info",
+      "remarque": "Adresse non trouvée",
+      "id": 119
+    },
+    {
+      "nom": "Agence M'Sila",
+      "adresse": "M'Sila",
+      "wilaya": "M'Sila",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=Air%20Alg%C3%A9rie%20M%27Sila",
+      "source": "airalgerie.info",
+      "remarque": "Adresse non trouvée",
+      "id": 120
+    },
+    {
+      "nom": "Agence Aéroport Oran",
+      "adresse": "Aéroport de Oran",
+      "wilaya": "Oran",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20Oran%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 121
+    },
+    {
+      "nom": "Agence Aéroport Adrar",
+      "adresse": "Aéroport de Adrar",
+      "wilaya": "Adrar",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20Adrar%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 122
+    },
+    {
+      "nom": "Agence Aéroport Annaba Rabah Bitat",
+      "adresse": "Aéroport de Annaba Rabah Bitat",
+      "wilaya": "Annaba",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20Annaba%20Rabah%20Bitat%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 123
+    },
+    {
+      "nom": "Agence Aéroport Batna",
+      "adresse": "Aéroport de Batna",
+      "wilaya": "Batna",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20Batna%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 124
+    },
+    {
+      "nom": "Agence Aéroport Béchar",
+      "adresse": "Aéroport de Béchar",
+      "wilaya": "Béchar",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20B%C3%A9char%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 125
+    },
+    {
+      "nom": "Agence Aéroport Béjaïa",
+      "adresse": "Aéroport de Béjaïa",
+      "wilaya": "Béjaïa",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20B%C3%A9ja%C3%AFa%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 126
+    },
+    {
+      "nom": "Agence Aéroport Biskra",
+      "adresse": "Aéroport de Biskra",
+      "wilaya": "Biskra",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20Biskra%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 127
+    },
+    {
+      "nom": "Agence Aéroport Constantine",
+      "adresse": "Aéroport de Constantine",
+      "wilaya": "Constantine",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20Constantine%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 128
+    },
+    {
+      "nom": "Agence Aéroport Sétif",
+      "adresse": "Aéroport de Sétif",
+      "wilaya": "Sétif",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20S%C3%A9tif%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 129
+    },
+    {
+      "nom": "Agence Aéroport Timimoun",
+      "adresse": "Aéroport de Timimoun",
+      "wilaya": "Timimoun",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20Timimoun%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 130
+    },
+    {
+      "nom": "Agence Aéroport Jijel",
+      "adresse": "Aéroport de Jijel",
+      "wilaya": "Jijel",
+      "pays": "Algérie",
+      "ville": null,
+      "statut": "signalée, à vérifier",
+      "contact": {
+        "telephones": []
+      },
+      "lien_localisation": "https://www.google.com/maps/search/?api=1&query=A%C3%A9roport%20Jijel%20Alg%C3%A9rie",
+      "source": "airalgerie.info",
+      "remarque": "Agence aéroportuaire signalée ; téléphone non trouvé",
+      "id": 131
     }
   ],
   "portee": "Algérie et étranger",
-  "total": 78
+  "total": 131
 }
